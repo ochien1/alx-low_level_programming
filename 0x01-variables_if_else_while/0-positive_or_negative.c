@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - Entry point
- *
+ * Descrption: 'Check for number if it s positive or negative'
  * Return: Always 0
  */
 int main(void)
