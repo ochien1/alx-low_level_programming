@@ -1,19 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+# include <stdlib.h>
+# include <time.h>
+# include <stdio.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (success/correct)
  */
 int main(void)
 {
-	int n =97;
-	while (n <= 122
-	{ 
-        putchar(n);
-	n++;
+	char lower_case;
+	char upper_case;
+
+	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+	{
+		putchar(lower_case);
 	}
-	return (0)
-}
-~                                                                                                                                                             
+	for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+	{
+		putchar(upper_case);
+	}
+	putchar('\n');
+	return (0);
+}                                                                                                                                                      
